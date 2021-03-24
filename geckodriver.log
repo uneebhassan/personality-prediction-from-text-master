@@ -334,3 +334,8 @@ JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 988: NS_ERRO
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1616616479968	geckodriver	INFO	Listening on 127.0.0.1:62750
+1616616483018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\uniih\\AppData\\Local\\Temp\\rust_mozprofileb9DmAV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616616488918	Marionette	INFO	Listening on port 62760
+1616616489306	Marionette	WARN	TLS certificate errors will be ignored for this session
