@@ -63,7 +63,11 @@ class FBWebScraper():
         self.browser.implicitly_wait(30) # seconds
         self.browser.find_element_by_css_selector(f'a[href="{self.my_profile_url}"]').click()
         time.sleep(self.scroll_time)
+<<<<<<< HEAD
         #self.browser.find_element_by_link_text('Friends').click()
+=======
+        self.browser.find_element_by_link_text('Friends').click()
+>>>>>>> 20589f3776a09132bb57768a06aa5ce6ae6a32e3
         time.sleep(self.scroll_time)
 
         # Grab your number of friends from your profile
